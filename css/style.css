@@ -1,0 +1,90 @@
+
+/* fonts */
+ /* kumbh-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/kumbh-sans-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/kumbh-sans-v19-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* kumbh-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/kumbh-sans-v19-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/kumbh-sans-v19-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* end */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Kumbh Sans';
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 100%;
+    border-radius: 23px;
+    max-width: 920px;
+    height: 509px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: -78px;
+}
+.right{
+    margin-left: 475px;
+    width: 100%;
+}
+.faq{
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+.one{
+    font-weight: 400;
+    width: 100%;
+    max-width: 350px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4C5F;    
+    padding-bottom: 18px;
+    border-bottom: 1px solid  #E8E8EA;
+    margin-bottom: 18px;
+}
+
+.one:hover{
+     color: #F47B56;
+}
+.one-wrapp{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+    cursor: pointer;
+}
+.answer{
+    display: none;
+}
